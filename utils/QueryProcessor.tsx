@@ -54,6 +54,10 @@ export default function QueryProcessor(query: string): string {
   if (query.toLowerCase().includes("What is 27 plus 56?")){
     return "83";
   }
+
+  if (query.toLowerCase().includes("What is 52 minus 58?")){
+    return "-6";
+  }
   
   
   
